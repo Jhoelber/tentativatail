@@ -21,10 +21,10 @@
     }
 
     .image {
-        @apply mx-auto w-6 md:w-40;
+        @apply mx-auto w-32 md:w-40;
     }
 
     .tamanhoTexto {
-        @apply text-xs
+        @apply text-xs md:text-2xl
     }
 }
