@@ -596,6 +596,10 @@ body {
   margin: 0.5rem;
 }
 
+.m-3 {
+  margin: 0.75rem;
+}
+
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -625,8 +629,24 @@ body {
   height: 3rem;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .max-h-10 {
   max-height: 2.5rem;
+}
+
+.max-h-5 {
+  max-height: 1.25rem;
+}
+
+.max-h-6 {
+  max-height: 1.5rem;
+}
+
+.max-h-8 {
+  max-height: 2rem;
 }
 
 .grid-cols-2 {
@@ -717,6 +737,14 @@ body {
 }
 
 @media (min-width: 768px) {
+  .md\:max-h-5 {
+    max-height: 1.25rem;
+  }
+
+  .md\:max-h-10 {
+    max-height: 2.5rem;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
