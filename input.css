@@ -2,17 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-    body{
+
+
+
+
+
+
+
+@layer base {
+    body {
         @apply font-inter
     }
 }
 
-@layer components{
-    .card{
-        @apply   flex justify-center items-center flex-col  gap-2 h-52  cursor-pointer hover:-translate-y-4 hover:transition
+@layer components {
+    .card {
+        @apply flex justify-center items-center flex-col gap-2 h-52 cursor-pointer hover:-translate-y-4 hover:transition 
     }
-    .image{
-        @apply mx-auto h-40 
+
+    .image {
+        @apply mx-auto w-32 md:w-40;
+    }
+
+    .tamanhoTexto {
+        @apply text-xs
     }
 }
