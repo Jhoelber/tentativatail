@@ -571,7 +571,25 @@ body {
 .image {
   margin-left: auto;
   margin-right: auto;
-  height: 10rem;
+  width: 8rem;
+}
+
+@media (min-width: 768px) {
+  .image {
+    width: 10rem;
+  }
+}
+
+.tamanhoTexto {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+@media (min-width: 768px) {
+  .tamanhoTexto {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 .m-2 {
@@ -607,20 +625,12 @@ body {
   height: 3rem;
 }
 
-.h-40 {
-  height: 10rem;
-}
-
 .max-h-10 {
   max-height: 2.5rem;
 }
 
-.w-16 {
-  width: 4rem;
-}
-
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .place-items-center {
@@ -635,62 +645,29 @@ body {
   justify-content: center;
 }
 
-.gap-3 {
-  gap: 0.75rem;
-}
-
-.gap-8 {
-  gap: 2rem;
-}
-
-.gap-36 {
-  gap: 9rem;
-}
-
-.gap-5 {
-  gap: 1.25rem;
-}
-
 .gap-10 {
   gap: 2.5rem;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
-.gap-40 {
-  gap: 10rem;
-}
-
-.gap-6 {
-  gap: 1.5rem;
-}
-
-.gap-12 {
-  gap: 3rem;
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .gap-24 {
   gap: 6rem;
 }
 
-.gap-y-40 {
-  row-gap: 10rem;
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-y-20 {
+  row-gap: 5rem;
 }
 
 .bg-\[\#014A7D\] {
   --tw-bg-opacity: 1;
   background-color: rgb(1 74 125 / var(--tw-bg-opacity));
-}
-
-.bg-slate-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .p-4 {
@@ -706,29 +683,8 @@ body {
   padding-bottom: 2.5rem;
 }
 
-.pl-2 {
-  padding-left: 0.5rem;
-}
-
-.pr-2 {
-  padding-right: 0.5rem;
-}
-
-.pr-10 {
-  padding-right: 2.5rem;
-}
-
-.pl-10 {
-  padding-left: 2.5rem;
-}
-
 .text-center {
   text-align: center;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .text-4xl {
@@ -736,14 +692,14 @@ body {
   line-height: 2.5rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-light {
@@ -763,6 +719,19 @@ body {
 @media (min-width: 768px) {
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:gap-32 {
+    gap: 8rem;
+  }
+
+  .md\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
