@@ -596,10 +596,6 @@ body {
   margin: 0.5rem;
 }
 
-.m-3 {
-  margin: 0.75rem;
-}
-
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -609,20 +605,56 @@ body {
   margin-top: 2.5rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .mt-20 {
   margin-top: 5rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .mt-8 {
   margin-top: 2rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
+.mt-12 {
+  margin-top: 3rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.-mt-56 {
+  margin-top: -14rem;
+}
+
+.mt-72 {
+  margin-top: 18rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
 }
 
 .flex {
@@ -641,28 +673,8 @@ body {
   height: 3rem;
 }
 
-.h-6 {
-  height: 1.5rem;
-}
-
-.h-2 {
-  height: 0.5rem;
-}
-
-.max-h-10 {
-  max-height: 2.5rem;
-}
-
-.max-h-5 {
-  max-height: 1.25rem;
-}
-
-.max-h-6 {
-  max-height: 1.5rem;
-}
-
-.max-h-8 {
-  max-height: 2rem;
+.max-h-4 {
+  max-height: 1rem;
 }
 
 .grid-cols-2 {
@@ -685,10 +697,6 @@ body {
   gap: 2.5rem;
 }
 
-.gap-2 {
-  gap: 0.5rem;
-}
-
 .gap-24 {
   gap: 6rem;
 }
@@ -697,8 +705,8 @@ body {
   gap: 0.75rem;
 }
 
-.gap-y-20 {
-  row-gap: 5rem;
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .bg-\[\#014A7D\] {
@@ -721,6 +729,10 @@ body {
 
 .text-center {
   text-align: center;
+}
+
+.align-bottom {
+  vertical-align: bottom;
 }
 
 .text-4xl {
@@ -753,12 +765,24 @@ body {
 }
 
 @media (min-width: 768px) {
-  .md\:max-h-5 {
-    max-height: 1.25rem;
+  .md\:max-h-14 {
+    max-height: 3.5rem;
   }
 
   .md\:max-h-10 {
     max-height: 2.5rem;
+  }
+
+  .md\:max-h-4 {
+    max-height: 1rem;
+  }
+
+  .md\:max-h-6 {
+    max-height: 1.5rem;
+  }
+
+  .md\:max-h-8 {
+    max-height: 2rem;
   }
 
   .md\:grid-cols-2 {
